@@ -13,11 +13,13 @@ It either has just a element name, and the node value ('innerHTML'), like this:
 
 Or it also has an `@` key which are the attributes for this node:
 
+```
 { @ {id question class green}
   input "What color is this"  }
+```
 
 
-
+```
 { @ {style max-width:72ch}
   body {
     {h1 Markjam}
@@ -31,3 +33,4 @@ Or it also has an `@` key which are the attributes for this node:
     }
     ...
 }}
+```
